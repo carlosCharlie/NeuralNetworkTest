@@ -1,0 +1,44 @@
+.circle{
+    border-radius: 100%;
+    width: 110px;
+    height: 110px;
+    border: black 3px solid;
+    position: absolute;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+}
+
+#tracker0{
+    background-color: red;
+}
+#tracker1{
+    background-color: greenyellow;
+}
+#tracker2{
+    background-color: gold;
+}
+#tracker3{
+    background-color: cyan;
+}
+
+
+h1{
+    text-align: center;
+}
+main{
+    position: absolute;
+    width:30vw;
+    left:63vw;
+    margin: 10px;
+    padding: 30px;
+    font-family: monospace;
+    font-size: 150%;
+    text-align:justify;
+}
